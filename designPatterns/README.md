@@ -9,4 +9,3 @@ It is used to implement an undo mechanism.
 * Editor = Originator
 * EditorState = Memento
 * History = CareTaker
-
