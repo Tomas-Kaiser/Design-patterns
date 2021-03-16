@@ -8,8 +8,8 @@ object to its previous state. The memento pattern is implemented
 with three objects: the originator, a caretaker and a memento.
 The originator is some object that has an internal state.
 
-![Memento UML](./images/Memento_UML.png)
-
 * Editor = Originator
 * EditorState = Memento
 * History = CareTaker
+
+![Memento UML](./images/Memento_UML.png)
