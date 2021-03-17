@@ -1,20 +1,15 @@
 package com.tomas.memento.exercise;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Stack;
 
 public class History {
-    private List<DocumentState> states = new ArrayList<>();
+    private Stack<DocumentState> states = new Stack<>();
 
     public void push(DocumentState state){
-        states.add(state);
+        states.push(state);
     }
 
     public DocumentState pop() {
-        var lastIndex = states.size() - 1;
-        var lastState = states.get(lastIndex);
-        states.remove(lastState);
-
-        return lastState;
+        return states.pop();
     }
 }
