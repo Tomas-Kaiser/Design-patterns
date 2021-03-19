@@ -19,6 +19,11 @@ The originator is some object that has an internal state.
 ## State Pattern
 
 State pattern allows an object to behave differently when the state
-changes
+changes (polymorphism).
+
+* Canvas =  Context
+* Tool = State
+* Selection = ConcreteStateA
+* Brush = ConcreteStateB
 
 ![State UML](./images/State_UML.png)
