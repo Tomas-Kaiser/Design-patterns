@@ -21,9 +21,28 @@ The originator is some object that has an internal state.
 State pattern allows an object to behave differently when the state
 changes (polymorphism).
 
+The state pattern is used in computer programming to encapsulate
+varying behavior for the same object, based on its internal state.
+This can be a cleaner way for an object to change its behavior at
+runtime without resorting to conditional statements and thus improve
+maintainability.
+
 * Canvas =  Context
 * Tool = State
 * Selection = ConcreteStateA
 * Brush = ConcreteStateB
 
 ![State UML](./images/State_UML.png)
+
+## Iterator Pattern
+
+Iterator pattern is very commonly used design pattern in Java and
+.Net programming environment. This pattern is used to get a way
+to access the elements of a collection object in sequential manner
+without any need to know its underlying representation.
+
+Iterator is a behavioral design pattern that lets you traverse elements
+of a collection without exposing its underlying representation
+(list, stack, tree, etc.).
+
+![State UML](./images/Iterator_UML.png)
