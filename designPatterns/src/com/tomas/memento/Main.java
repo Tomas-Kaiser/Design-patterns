@@ -13,11 +13,14 @@ public class Main {
         document.setContent("Hello content A");
         document.setFontName("Arial");
         document.setSize(12);
-        history.push(new DocumentState(document.getContent(), document.getFontName(), document.getSize()));
+        history.push(document.craeteDocumentState());
 
         document.setContent("Hello content B");
         document.setFontName("Arial B");
         document.setSize(14);
+        history.push(document.craeteDocumentState());
+
+        document.restore(history.pop());
         document.restore(history.pop());
 
 

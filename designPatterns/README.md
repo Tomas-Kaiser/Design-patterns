@@ -46,3 +46,11 @@ of a collection without exposing its underlying representation
 (list, stack, tree, etc.).
 
 ![State UML](./images/Iterator_UML.png)
+
+## Strategy Pattern
+
+Strategy is a behavioral design pattern that lets you define a family of
+algorithms, put each of them into a separate class, and make their objects
+interchangeable.
+
+![State UML](./images/Strategy_UML.png)
