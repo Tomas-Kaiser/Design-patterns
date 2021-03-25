@@ -1,4 +1,4 @@
-package com.tomas.memento.template;
+package com.tomas.template;
 
 public abstract class Task {
     private AuditTrail auditTrail;

@@ -1,4 +1,4 @@
-package com.tomas.memento.template;
+package com.tomas.template;
 
 public class GenerateReportTask extends Task {
 

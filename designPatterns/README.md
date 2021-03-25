@@ -54,3 +54,14 @@ algorithms, put each of them into a separate class, and make their objects
 interchangeable.
 
 ![State UML](./images/Strategy_UML.png)
+
+## Template Pattern
+
+In Template pattern, an abstract class exposes defined way(s)/template(s)
+to execute its methods. Its subclasses can override the method implementation
+as per need but the invocation is to be in the same way as defined by an abstract
+class. This pattern comes under behavior pattern category.
+
+![State UML](./images/Template_UML.png)
+
+![State UML](./images/Template_UML_2.png)
